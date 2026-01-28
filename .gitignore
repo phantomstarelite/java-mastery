@@ -43,6 +43,7 @@ Thumbs.db
 # Ignore leetcode practice
 src/leetcode/
 src/hackerrank/
+src/finalproject/
 
 # Linux / KDE files
 .directory
