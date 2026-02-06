@@ -1,4 +1,4 @@
-
+er
 # 🧑‍🏫 LESSON 6: `switch` Statement (From Basics to Pro)
 
 > **Goal:**
