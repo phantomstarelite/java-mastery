@@ -224,3 +224,106 @@ else
 ```
 
 
+---
+
+# Solution
+
+
+
+# ✅ REVIEW: QUESTION 1 (Day using `switch`)
+
+## Que 1
+
+```java
+import java.util.Scanner;
+
+public class Switched {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the day (1–7): ");
+        int day = sc.nextInt();
+
+        switch (day) {
+            case 1:
+                System.out.println("Sunday");
+                break;
+            case 2:
+                System.out.println("Monday");
+                break;
+            case 3:
+                System.out.println("Tuesday");
+                break;
+            case 4:
+                System.out.println("Wednesday");
+                break;
+            case 5:
+                System.out.println("Thursday");
+                break;
+            case 6:
+                System.out.println("Friday");
+                break;
+            case 7:
+                System.out.println("Saturday");
+                break;
+            default:
+                System.out.println("Invalid value");
+        }
+
+        sc.close();
+    }
+}
+```
+
+
+
+
+## QUESTION 2 (Theory)
+
+
+
+### ✅ Improved professional wording:
+
+> **If `break` is not used, execution continues to the next cases until a `break` is encountered or the switch block ends.**
+
+Perfect concept ✔️
+
+---
+
+# ✅  QUESTION 3 
+
+### ✔ Your code:
+
+* Correct conversion
+* Proper `break`
+* Clean structure
+
+### 🔧 Minor polish (optional)
+
+* Scanner not required here, but allowed
+
+### ✅ Final Professional Version
+
+```java
+public class Caso {
+    public static void main(String[] args) {
+
+        int option = 2;
+
+        switch (option) {
+            case 1:
+                System.out.println("Start");
+                break;
+            case 2:
+                System.out.println("Stop");
+                break;
+            default:
+                System.out.println("Exit");
+        }
+    }
+}
+```
+
+---
+
